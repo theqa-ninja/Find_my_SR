@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Poof",
+  "version": "1.0",
+
+  "description": "Adds a border around all Screen Reader elements",
+
+  "icons": {
+    "48": "icons/audio.svg"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/audio.svg",
+    "default_title": "QA Ninja?!"
+  },
+
+  "background": {
+    "scripts": ["marking.js"]
+  }
+}
