@@ -3,6 +3,7 @@
   "manifest_version": 2,
   "name": "Poof",
   "version": "1.0",
+  "default_title": "Find my SR",
 
   "description": "Adds a border around all Screen Reader elements",
 
@@ -15,7 +16,9 @@
     "default_title": "QA Ninja?!"
   },
 
-  "background": {
-    "scripts": ["marking.js"]
-  }
+  "content_scripts": [
+  {
+    "matches": ["*://*.bing.com/*"],
+    "js": ["borderify.js"]
+  }]
 }
