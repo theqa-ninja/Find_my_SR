@@ -5,7 +5,7 @@
   "version": "1.0",
   "default_title": "Find my SR",
 
-  "description": "Adds a border around all Screen Reader elements",
+  "description": "Do you pass Screen Reader checks?  Want to know what the Screen Reader will read? I gotchu!",
 
   "icons": {
     "48": "icons/audioEmpty.svg"
@@ -17,7 +17,7 @@
 
   "browser_action": {
     "default_icon": "icons/audioEmpty.svg",
-    "default_title": "QA Ninja?!",
+    "default_title": "Find my SR!",
     "default_popup": "popup/pop.html"
   }
 }
