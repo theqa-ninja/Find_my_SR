@@ -8,17 +8,16 @@
   "description": "Adds a border around all Screen Reader elements",
 
   "icons": {
-    "48": "icons/audio.svg"
+    "48": "icons/audioEmpty.svg"
   },
+
+  "permissions": [
+    "activeTab"
+  ],
 
   "browser_action": {
-    "default_icon": "icons/audio.svg",
-    "default_title": "QA Ninja?!"
-  },
-
-  "content_scripts": [
-  {
-    "matches": ["*://*.bing.com/*"],
-    "js": ["borderify.js"]
-  }]
+    "default_icon": "icons/audioEmpty.svg",
+    "default_title": "QA Ninja?!",
+    "default_popup": "popup/pop.html"
+  }
 }
